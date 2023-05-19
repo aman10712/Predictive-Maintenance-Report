@@ -8,7 +8,7 @@ def hello_world():
 
 
 @app.route('/result',methods=["GET","POST"])
-def results_page():
+def results_pages():
 
      if request.method == "POST":
           dev_cap = int(request.form["dev_cap"])
